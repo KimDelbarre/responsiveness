@@ -1,0 +1,47 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #e7305b;
+  }
+
+  #small {
+    display: block;
+    font-size: x-large;
+  }
+
+  #medium,
+  #large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    background-color: #96bb7c;
+  }
+
+  #medium {
+    display: block;
+    font-size: x-large;
+  }
+
+  #small,
+  #large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #a6dcef;
+  }
+
+  #small,
+  #medium {
+    display: none;
+  }
+
+  #large {
+    display: block;
+    font-size: x-large;
+  }
+}
