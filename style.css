@@ -2,7 +2,7 @@
   body {
     background-color: #e7305b;
   }
-
+ /*
   #small {
     display: block;
     font-size: x-large;
@@ -12,13 +12,18 @@
   #large {
     display: none;
   }
+  */
+
+div {
+        width: 100%;
+        }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   body {
     background-color: #96bb7c;
   }
-
+ /*
   #medium {
     display: block;
     font-size: x-large;
@@ -28,13 +33,27 @@
   #large {
     display: none;
   }
+   */
+
+  #small {
+        width: 66.66%;
+        float: left;
+    }
+  #medium {
+        width: 33.33%;
+        float: right;
+    }
+  #large {
+        width: 100%;
+        float: none;
+    }
 }
 
 @media screen and (min-width: 1024px) {
   body {
     background-color: #a6dcef;
   }
-
+ /*
   #small,
   #medium {
     display: none;
@@ -44,4 +63,18 @@
     display: block;
     font-size: x-large;
   }
+  */
+
+    #small {
+        float: left;
+        width: 33.33%;
+    }
+    #medium {
+        float: left;
+        width: 33.33%;
+    }
+    #large {
+        float: left;
+        width: 33.33%;
+    }
 }
